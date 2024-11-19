@@ -23,8 +23,8 @@ API_HASH = environ.get('API_HASH', '2846ce47f16b6044cfb5cf245c0d2767')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
-CACHE_TIME = int(environ.get('CACHE_TIME', 300))
-PICS = (environ.get('PICS', 'https://graph.org/file/ce1723991756e48c35aa1.jpg')).split() #SAMPLE PIC
+CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
+PICS = (environ.get('PICS', 'https://envs.sh/s/d6YlfbNMVG4R0tTciR96eA/5zE.jpg https://envs.sh/s/DZ-gTav3P-bngLqwQlTtdQ/5zQ.jpg https://envs.sh/s/Wo_1oZDlp86DbC25XebErw/5zh.jpg https://envs.sh/s/f2oXU5ZTA396z-1Ayox-7Q/5zd.jpg https://envs.sh/s/slPECcNmz0xOZZfrHbic3w/5z2.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -91,7 +91,7 @@ SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat 
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
-PM_SEARCH = bool(environ.get('PM_SEARCH', False))
+PM_SEARCH = bool(environ.get('PM_SEARCH', True))
 IS_SHORTLINK = bool(environ.get('IS_SHORTLINK', False))
 MAX_BTN = is_enabled((environ.get('MAX_BTN', "True")), True)
 IS_TUTORIAL = bool(environ.get('IS_TUTORIAL', False))
