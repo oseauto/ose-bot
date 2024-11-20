@@ -24,7 +24,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 1800))
-PICS = (environ.get('PICS', 'https://envs.sh/s/d6YlfbNMVG4R0tTciR96eA/5zE.jpg https://envs.sh/s/DZ-gTav3P-bngLqwQlTtdQ/5zQ.jpg https://envs.sh/s/Wo_1oZDlp86DbC25XebErw/5zh.jpg https://envs.sh/s/f2oXU5ZTA396z-1Ayox-7Q/5zd.jpg https://envs.sh/s/slPECcNmz0xOZZfrHbic3w/5z2.jpg')).split() #SAMPLE PIC
+PICS = (environ.get('PICS', 'https://envs.sh/s/XkyCg_gZO5hm5U4nuG7mVg/5gB.jpg https://envs.sh/s/PH9paz_mgSsLOZMf640sHQ/5gI.jpg https://envs.sh/s/YyP1-yYXH_BvWJSAxo4_rA/5gn.jpg https://envs.sh/s/AYNPqUxSv8fenfhBh2xyFA/5gT.jpg')).split() #SAMPLE PIC
 NOR_IMG = environ.get("NOR_IMG", "https://graph.org/file/b69af2db776e4e85d21ec.jpg")
 MELCOW_VID = environ.get("MELCOW_VID", "https://t.me/How_To_Open_Linkl")
 SPELL_IMG = environ.get("SPELL_IMG", "https://te.legra.ph/file/15c1ad448dfe472a5cbb8.jpg")
@@ -42,9 +42,9 @@ REQUEST_TO_JOIN_MODE = bool(environ.get('REQUEST_TO_JOIN_MODE', True)) # Set Tru
 TRY_AGAIN_BTN = bool(environ.get('TRY_AGAIN_BTN', False)) # Set True Or False (This try again button is only for request to join fsub not for normal fsub)
 auth_channel = environ.get('AUTH_CHANNEL', '-1002345510042') # give your force subscribe channel id here else leave it blank
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
-reqst_channel = environ.get('REQST_CHANNEL_ID', '')
+reqst_channel = environ.get('REQST_CHANNEL_ID', '-1002372159300')
 REQST_CHANNEL = int(reqst_channel) if reqst_channel and id_pattern.search(reqst_channel) else None
-support_chat_id = environ.get('SUPPORT_CHAT_ID', '')
+support_chat_id = environ.get('SUPPORT_CHAT_ID', '-1002371751373')
 SUPPORT_CHAT_ID = int(support_chat_id) if support_chat_id and id_pattern.search(support_chat_id) else None
 INDEX_REQ_CHANNEL = int(environ.get('INDEX_REQ_CHANNEL', LOG_CHANNEL))
 FILE_STORE_CHANNEL = [int(ch) for ch in (environ.get('FILE_STORE_CHANNEL', '')).split()]
@@ -84,10 +84,10 @@ CLONE_DATABASE_URI = environ.get('CLONE_DATABASE_URI', "") # Necessary If clone 
 PUBLIC_FILE_CHANNEL = environ.get('PUBLIC_FILE_CHANNEL', '') # Public Channel Username Without @ or without https://t.me/ and Bot Is Admin With Full Right.
 
 # Links
-GRP_LNK = environ.get('GRP_LNK', 'https://t.me/vj_bot_disscussion')
-CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/vj_bots')
+GRP_LNK = environ.get('GRP_LNK', 'https://t.me/+DXk449dJnn01YWM1')
+CHNL_LNK = environ.get('CHNL_LNK', 'https://t.me/All_In_One_Linkz')
 TUTORIAL = environ.get('TUTORIAL', 'https://t.me/How_To_Open_Linkl')
-SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'vj_bot_disscussion') # Support Chat Link Without https:// or @
+SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/chat_sup_6') # Support Chat Link Without https:// or @
 
 # True Or False
 AI_SPELL_CHECK = bool(environ.get('AI_SPELL_CHECK', True))
@@ -126,7 +126,7 @@ SHORTLINK_API = environ.get('SHORTLINK_API', '')
 # Others
 MAX_B_TN = environ.get("MAX_B_TN", "5")
 PORT = environ.get("PORT", "8080")
-MSG_ALRT = environ.get('MSG_ALRT', 'ena thambi intha pakkam!')
+MSG_ALRT = environ.get('MSG_ALRT', 'Ena Thambi Intha Pakkam!')
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", f"{script.IMDB_TEMPLATE_TXT}")
@@ -156,7 +156,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://testofvjfilter-1fa60b1b8498.herokuapp.com/")
+URL = environ.get("URL", "https://stupid-crow-musraf-5c138223.koyeb.app/")
 
 
 # Rename Info : If True Then Bot Rename File Else Not
