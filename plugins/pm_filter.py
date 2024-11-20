@@ -2908,7 +2908,6 @@ async def auto_filter(client, name, msg, ai_search, spoll=False):
     if imdb and imdb.get('poster'):
         try:
             hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await reply_msg.delete()
             try:
                 if settings['auto_delete']:
                     await asyncio.sleep(300)
@@ -2923,7 +2922,6 @@ async def auto_filter(client, name, msg, ai_search, spoll=False):
             pic = imdb.get('poster')
             poster = pic.replace('.jpg', "._V1_UX360.jpg") 
             hmm = await message.reply_photo(photo=poster, caption=cap, reply_markup=InlineKeyboardMarkup(btn))
-            await reply_msg.delete()
             try:
                if settings['auto_delete']:
                     await asyncio.sleep(300)
@@ -2961,7 +2959,7 @@ async def auto_filter(client, name, msg, ai_search, spoll=False):
             await fuk.delete()
             await message.delete()
 
-async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
+async def advantage_spell_chok(client, name, msg, vj_search):
     mv_id = msg.id
     mv_rqst = name
     reqstr1 = msg.from_user.id if msg.from_user else 0
@@ -3011,7 +3009,7 @@ async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
             except:
                 pass
             if mv_rqst.startswith(techvj[0]):
-                await auto_filter(client, techvj, msg, reply_msg, vj_search_new)
+                await auto_filter(client, techvj, msg, vj_search_new)
                 break
         reqst_gle = mv_rqst.replace(" ", "+")
         button = [[
