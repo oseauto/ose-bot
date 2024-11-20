@@ -649,7 +649,7 @@ async def send_all(bot, userid, files, ident, chat_id, user_name, query):
                                 InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
                                 InlineKeyboardButton('Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                             ],[
-                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/kingvj01")
+                                InlineKeyboardButton("Bᴏᴛ Oᴡɴᴇʀ", url="t.me/GODLike_razith")
                                 ]
                             ]
                         )
@@ -666,9 +666,9 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
         IMDB_CAP = temp.IMDB_CAP.get(query.from_user.id)
         if IMDB_CAP:
             cap = IMDB_CAP
-            cap+="<b>\n\n<u>🍿 Your Movie Files 👇</u></b>\n\n"
+            cap+="<b>\n\n<u></u></b>\n\n"
             for file in files:
-                cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
+                cap += f"<b>🗂️ <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
         else:
             imdb = await get_poster(search, file=(files[0])["file_name"]) if settings["imdb"] else None
             if imdb:
@@ -704,19 +704,19 @@ async def get_cap(settings, remaining_seconds, files, query, total_results, sear
                     url=imdb['url'],
                     **locals()
                 )
-                cap+="<b>\n\n<u>🍿 Your Movie Files 👇</u></b>\n\n"
+                cap+="<b>\n\n<u></u></b>\n\n"
                 for file in files:
-                    cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
+                    cap += f"<b>🗂️ <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
             else:
                 cap = f"<b>Rᴇsᴜʟᴛs ғᴏʀ 🔍 `{search}`</b>"
-                cap+="<b><u>🍿 Your Movie Files 👇</u></b>\n\n"
+                cap+="<b><u></u></b>\n\n"
                 for file in files:
-                    cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
+                    cap += f"<b>🗂️ <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
     else:
         cap = f"<b>Rᴇsᴜʟᴛs ғᴏʀ 🔍 {search}</b>"
-        cap+="<b><u>🍿 Your Movie Files 👇</u></b>\n\n"
+        cap+="<b><u></u></b>\n\n"
         for file in files:
-            cap += f"<b>📁 <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
+            cap += f"<b>🗂️ <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
     return cap
 
 
