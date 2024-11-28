@@ -61,9 +61,9 @@ if MULTIPLE_DATABASE == False:
     SEC_FILE_DB_URI = DATABASE_URI
 else:
     USER_DB_URI = DATABASE_URI # This Db is for User Data Store
-    OTHER_DB_URI = environ.get('OTHER_DB_URI', "mongodb+srv://ose2:ose786@cluster0.ev2i9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db Is For Other Data Store
+    OTHER_DB_URI = environ.get('OTHER_DB_URI', "") # This Db Is For Other Data Store
     FILE_DB_URI = environ.get('FILE_DB_URI', "mongodb+srv://ose2:ose786@cluster0.ev2i9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db Is For File Data Store
-    SEC_FILE_DB_URI = environ.get('SEC_FILE_DB_URI', "mongodb+srv://ose2:ose786@cluster0.ev2i9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db is for File Data Store When First Db Is Going To Be Full.
+    SEC_FILE_DB_URI = environ.get('SEC_FILE_DB_URI', "") # This Db is for File Data Store When First Db Is Going To Be Full.
     
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_Videos')
