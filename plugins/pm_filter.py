@@ -2916,7 +2916,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
             await fuk.delete()
             await message.delete()
 
-async def advantage_spell_chok(client, name, msg, None, vj_search):
+async def advantage_spell_chok(client, name, msg, reply_msg, vj_search):
     mv_id = msg.id
     mv_rqst = name
     reqstr1 = msg.from_user.id if msg.from_user else 0
