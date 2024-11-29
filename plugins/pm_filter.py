@@ -2072,6 +2072,11 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Gᴏ Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
+    elif query.data == "sourcecode":
+        buttons = [[
+            InlineKeyboardButton('Gᴏ Bᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+        ]]
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
