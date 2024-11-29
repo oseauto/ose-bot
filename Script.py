@@ -172,13 +172,17 @@ OTHER DB :-
 ╰┈➤ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>`</b>"""
     
     SOURCE_CODE_TXT = """
-    <b>NOTE:</b>
-- 𝖲𝗈𝗎𝗋𝖼𝖾 𝖢𝗈𝖽𝖾: 𝖳𝗁𝗂𝗌 𝗉𝗋𝗈𝗃𝖾𝖼𝗍 𝗂𝗌 𝗇𝗈𝗍 𝗈𝗉𝖾𝗇-𝗌𝗈𝗎𝗋𝖼𝖾, 𝖺𝗇𝖽 𝖨 𝖽𝗈 𝗇𝗈𝗍 𝗁𝖺𝗏𝖾 𝗈𝗐𝗇𝖾𝗋𝗌𝗁𝗂𝗉 𝗈𝖿 𝖺𝗅𝗅 𝗂𝗍𝗌 𝖼𝗈𝗆𝗉𝗈𝗇𝖾𝗇𝗍𝗌.
-
-𝖣𝖤𝖵:
-<b> - 𝖢𝗋𝖾𝖺𝗍𝖾𝖽 𝖡𝗒 <a href=https://t.me/All_In_One_Linkz>ALLINONELINKZ</a></b>
-<b> - 𝖢𝗋𝖾𝖽𝗂𝗍𝗌  <a href=https://t.me/GODLike_razith>RAZITH</a></b>"""
+<b><blockquote>    
+ɴᴏᴛᴇ : ᴛʜɪꜱ ɪꜱ ᴀɴ ᴄʟᴏsᴇᴅ ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ⚠️
     
+ᴛʜɪs ʙᴏᴛ ʜᴀs ʟᴀsᴛᴇsᴛ ᴀɴᴅ ᴀᴅᴠᴀɴᴄᴇᴅ ꜰᴇᴀᴛᴜʀᴇs⚡️
+
+» ᴅᴏɴ'ᴛ ᴡᴏʀʀʏ
+» ɪꜰ ʏᴏᴜ ᴡᴀɴᴛ ʟɪᴋᴇ ᴛʜɪꜱ ʙᴏᴛ ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ..!
+» ɪ ᴡɪʟʟ ᴄʀᴇᴀᴛᴇ ᴀ ʙᴏᴛ ꜰᴏʀ ʏᴏᴜ </blockquote></b>
+
+<b> » ᴄᴏɴᴛᴀᴄᴛ ᴍᴇ : <a href=https://t.me/GODLike_razith>ＲＡＺＩＴＨ</a></b>"""
+ 
     LOG_TEXT_G = """#NewGroup #Angel
 Gʀᴏᴜᴘ = {}(<code>{}</code>)
 Tᴏᴛᴀʟ Mᴇᴍʙᴇʀs = <code>{}</code>
