@@ -2874,9 +2874,9 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
                 cap += f"<b>\n🗂️ <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n</a></b>"
     else:
         if settings["button"]:
-            cap = f"<b>Rᴇsᴜʟᴛs ғᴏʀ 🔍  `{search}`</b>"
+            cap = f"<b>Rᴇsᴜʟᴛs ғᴏʀ 🔍  `{formatted_search}`</b>"
         else:
-            cap = f"<b>Rᴇsᴜʟᴛs ғᴏʀ 🔍  `{search}`</b>"
+            cap = f"<b>Rᴇsᴜʟᴛs ғᴏʀ 🔍  `{formatted_search}`</b>"
             cap+="<b><u></u></b>\n\n"
             for file in files:
                 cap += f"<b>🗂️ <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
