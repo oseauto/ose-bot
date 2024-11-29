@@ -2066,7 +2066,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
     elif query.data == "about":
         buttons = [[
             InlineKeyboardButton('Dɪsᴄʟᴀɪᴍᴇʀ', url="https://telegra.ph/AIO-Movies-Bot-Disclaimer-11-09"),
-            InlineKeyboardButton(' Source Code', callback_data='sourcecode')
+            InlineKeyboardButton('Source Code', callback_data='sourcecode')
         ],[
             InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ', url="https://t.me/GODLike_razith")
         ],[
@@ -2084,7 +2084,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
         )
-        elif query.data == "sourcecode":
+    elif query.data == "sourcecode":
         buttons = [[
             InlineKeyboardButton('Gᴏ Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
@@ -2099,7 +2099,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.SOURCE_CODE_TXT.format(temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )
+        )    
     elif query.data == "subscription":
         buttons = [[
             InlineKeyboardButton('⇚Back', callback_data='start')
