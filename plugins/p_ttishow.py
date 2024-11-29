@@ -161,8 +161,7 @@ async def re_enable_chat(bot, message):
     await message.reply("Chat Successfully re-enabled")
     
 @Client.on_message(filters.command('stats') & filters.incoming)
-async def get_ststs(bot, message):
-    rju = await message.reply('Sᴏʀʀʏ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴀᴅᴍɪɴꜱ 👀')
+message.reply('Sᴏʀʀʏ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴀᴅᴍɪɴꜱ 👀')
     
 @Client.on_message(filters.command('sss') & filters.incoming)
 async def get_ststs(bot, message):
