@@ -17,12 +17,12 @@ I Cᴀɴ Bʀɪɴɢ Tʜᴇ Bᴇsᴛ Mᴏᴠɪᴇs Fᴏʀ Yᴏᴜ, Jᴜsᴛ Aᴅ�
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b>╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ]────⍟
+    ABOUT_TXT = """╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ]────⍟
 ├⍟ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ├⍟ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
 ├⍟ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a>
 ├⍟ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : v.0.7[Osᴇ Exᴘʀᴇss]> 
-╰───────────────⍟</b>"""
+╰───────────────⍟"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
