@@ -6,7 +6,7 @@
 class script(object):
     START_TXT = """<b>✨Hᴇʟʟᴏ {}, 
     
-    Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>
+Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>
     
 I Cᴀɴ Bʀɪɴɢ Tʜᴇ Bᴇsᴛ Mᴏᴠɪᴇs Fᴏʀ Yᴏᴜ, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Cʀᴇᴇᴘ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ Sᴏᴍᴇ Sᴄᴇɴᴇs Yᴏᴜ Nᴇvᴇʀ Fᴏʀɢᴏᴛ! 😎🍿</b>"""
 
@@ -17,11 +17,12 @@ I Cᴀɴ Bʀɪɴɢ Tʜᴇ Bᴇsᴛ Mᴏᴠɪᴇs Fᴏʀ Yᴏᴜ, Jᴜsᴛ Aᴅ�
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """<b>  
-‣ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-‣ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a> 
-‣ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a> 
-‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : v.0.7[Osᴇ Exᴘʀᴇss]></b>"""
+    ABOUT_TXT = """<b>╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ]────⍟
+├⍟ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
+├⍟ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
+├⍟ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a>
+├⍟ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : v.0.7[Osᴇ Exᴘʀᴇss]> 
+╰───────────────⍟</b>"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
