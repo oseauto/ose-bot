@@ -21,8 +21,7 @@ BATCH_FILES = {}
 join_db = JoinReqs
 
 @Client.on_message(filters.command("start") & filters.incoming)
-async def start(client, message):
-    await message.react(emoji="🔥")
+async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
             InlineKeyboardButton(' Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/chat_sup_6"),
