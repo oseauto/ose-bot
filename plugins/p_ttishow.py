@@ -166,11 +166,11 @@ async def stats_handler(client, message):
     if message.from_user and message.chat and message.chat.type in ["supergroup", "group"]:
         member = await client.get_chat_member(message.chat.id, message.from_user.id)
         if member.status in ["administrator", "creator"]:
-            await message.reply("Here are the stats...")  # Replace with actual stats logic
+            await message.reply("Sᴏʀʀʏ, ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ꜰᴏʀ ᴀᴅᴍɪɴꜱ 👀")  # Replace with actual stats logic
         else:
             await message.reply("Sᴏʀʀʏ, ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ꜰᴏʀ ᴀᴅᴍɪɴꜱ 👀")
     else:
-        await message.reply("This command works only in groups.")
+        await message.reply("Sᴏʀʀʏ, ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ɪꜱ ꜰᴏʀ ᴀᴅᴍɪɴꜱ 👀")
     
 @Client.on_message(filters.command('sss') & filters.incoming)
 async def get_ststs(bot, message):
