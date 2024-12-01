@@ -5,12 +5,11 @@
 
 class script(object):
     START_TXT = """<b>
-Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>
-I Lᴏᴏᴋ Sɪᴍᴘʟᴇ, Bᴜᴛ Mʏ Wᴏʀᴋs Nᴏᴛ Sɪᴍᴘʟᴇ 💀...
-I Wᴏʀᴋ Oɴʟʏ Fᴏʀ Mʏ Oᴡɴᴇʀ....
-ɪғ Yᴏᴜ Wᴀɴᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘs Cᴏɴᴛᴀᴄᴛ ᴍʏ Oᴡɴᴇʀ 
+I Lᴏᴏᴋ🌟 Sɪᴍᴘʟᴇ, Bᴜᴛ Mʏ Wᴏʀᴋs Nᴏᴛ Sɪᴍᴘʟᴇ 💀...
 
-Oᴡɴᴇʀ : <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ♚</a></b>"""
+I Wᴏʀᴋ Oɴʟʏ Fᴏʀ Mʏ Oᴡɴᴇʀ....👿
+ɪғ Yᴏᴜ Wᴀɴᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘs Cᴏɴᴛᴀᴄᴛ ᴍʏ Oᴡɴᴇʀ...
+Oᴡɴᴇʀ ⚡️ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ♚</a></b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
