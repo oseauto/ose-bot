@@ -17,11 +17,13 @@ I Cᴀɴ Bʀɪɴɢ Tʜᴇ Bᴇsᴛ Mᴏᴠɪᴇs Fᴏʀ Yᴏᴜ, Jᴜsᴛ Aᴅ�
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ]────⍟
+    ABOUT_TXT = """╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ]────⍟
+|
 ├⍟ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
 ├⍟ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
-├⍟ ʙᴏᴛ sᴇʀᴠᴇʀ : <a href='https://heroku.com'>ʜᴇʀᴏᴋᴜ</a>
+├⍟ sᴇʀᴠᴇʀ ☁️: 🆅🅿🆂
 ├⍟ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : v.0.7[Osᴇ Exᴘʀᴇss]> 
+|
 ╰───────────────⍟"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
@@ -108,11 +110,6 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     EXTRAMOD_TXT = """ʜᴇʟᴘ: Exᴛʀᴀ Mᴏᴅᴜʟᴇs
 <b>ɴᴏᴛᴇ:</b>
-my features Stay here new features coming soon...  
- <b>✯ Maintained by : <a href=https://t.me/KingVj01>☢VJ☢</a></b>
-  
- <b>✯ Join here : <a href=https://t.me/vj_bots>☢Join my updateds☢</a></b> 
-  
  ./id - <code>ɢᴇᴛ ɪᴅ ᴏꜰ ᴀ ꜱᴘᴇᴄɪꜰɪᴇᴅ ᴜꜱᴇʀ.</ 
  code> 
   
@@ -134,7 +131,7 @@ my features Stay here new features coming soon...
 Tʜɪs Mᴏᴅᴜʟᴇ Oɴʟʏ Wᴏʀᴋs Fᴏʀ Mʏ Aᴅᴍɪɴs
 Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 • /logs - <code>ᴛᴏ ɢᴇᴛ ᴛʜᴇ ʀᴇᴄᴇɴᴛ ᴇʀʀᴏʀꜱ</code>
-• /stats - <code>ᴛᴏ ɢᴇᴛ ꜱᴛᴀᴛᴜꜱ ᴏꜰ ꜰɪʟᴇꜱ ɪɴ ᴅʙ. [Tʜɪs Cᴏᴍᴍᴀɴᴅ Cᴀɴ Bᴇ Usᴇᴅ Bʏ Aɴʏᴏɴᴇ]</code>
+• /stats - <code>ᴛᴏ ɢᴇᴛ ꜱᴛᴀᴛᴜꜱ ᴏꜰ ꜰɪʟᴇꜱ ɪɴ ᴅʙ. [Tʜɪs Cᴏᴍᴍᴀɴᴅ Cᴀɴ Bᴇ Usᴇᴅ Bʏ Aᴅᴍɪɴꜱ]</code>
 • /delete - <code>ᴛᴏ ᴅᴇʟᴇᴛᴇ ᴀ ꜱᴘᴇᴄɪꜰɪᴄ ꜰɪʟᴇ ꜰʀᴏᴍ ᴅʙ.</code>
 • /users - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴜꜱᴇʀꜱ ᴀɴᴅ ɪᴅꜱ.</code>
 • /chats - <code>ᴛᴏ ɢᴇᴛ ʟɪꜱᴛ ᴏꜰ ᴍʏ ᴄʜᴀᴛꜱ ᴀɴᴅ ɪᴅꜱ</code>
@@ -155,7 +152,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     STATUS_TXT = """<b>Sᴏʀʀʏ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴀᴅᴍɪɴꜱ 👀</b>"""
     
-    SSS_TXT = """<b>`Total Files From All DBs: <code>{}</code>
+    SSS_TXT = """<b><code>Total Files From All DBs: <code>{}</code>
 
 USERS DB :-
 ╰┈➤ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
@@ -173,7 +170,7 @@ FILE SECOND DB :-
 
 OTHER DB :-
 ╰┈➤ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-╰┈➤ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>`</b>"""
+╰┈➤ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></code></b>"""
     
     SOURCE_CODE_TXT = """
 <b><blockquote>    
