@@ -2085,7 +2085,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "about":
         buttons = [[
-            InlineKeyboardButton('Dɪsᴄʟᴀɪᴍᴇʀ', url="https://telegra.ph/AIO-Movies-Bot-Disclaimer-11-09"),
+            InlineKeyboardButton('Dɪsᴄʟᴀɪᴍᴇʀ', callback_data='dis'),
             InlineKeyboardButton('Sᴏᴜʀᴄᴇ Cᴏᴅᴇ', callback_data='sourcecode')
         ],[
             InlineKeyboardButton('Cᴏɴᴛᴀᴄᴛ Dᴇᴠᴇʟᴏᴘᴇʀ', url="https://t.me/GODLike_razith")
@@ -2116,7 +2116,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         )
     elif query.data == "sourcecode":
         buttons = [[
-            InlineKeyboardButton('Gᴏ Bᴀᴄᴋ', callback_data='start'),
+            InlineKeyboardButton('Gᴏ Bᴀᴄᴋ', callback_data='about'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -2145,7 +2145,33 @@ async def cb_handler(client: Client, query: CallbackQuery):
             text=script.SOURCE_CODE_TXT.format(temp.U_NAME, temp.B_NAME),
             reply_markup=reply_markup,
             parse_mode=enums.ParseMode.HTML
-        )    
+        ) 
+    elif query.data == "dis":
+        buttons = [[
+            InlineKeyboardButton('Gᴏ Bᴀᴄᴋ', callback_data='about'),
+            InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
+        ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        await client.edit_message_media(
+            query.message.chat.id, 
+            query.message.id, 
+            InputMediaPhoto(random.choice(PICS))
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text=script.DISCLAIMER_TXT.format(temp.U_NAME, temp.B_NAME),
+            reply_markup=reply_markup,
+            parse_mode=enums.ParseMode.HTML
+        )
     elif query.data == "subscription":
         buttons = [[
             InlineKeyboardButton('⇚Back', callback_data='start')
