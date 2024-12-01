@@ -1966,6 +1966,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             ],[
                 InlineKeyboardButton(' Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ', url=CHNL_LNK)
             ]]
+            reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
         if CLONE_MODE == True:
             buttons.append([InlineKeyboardButton('🤖 Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ 🤖', callback_data='clone')])
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -2053,6 +2063,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
              InlineKeyboardButton('Bᴀᴄᴋ Tᴏ Hᴏᴍᴇ Pᴀɢᴇ', callback_data='start')
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
+        reply_markup = InlineKeyboardMarkup(buttons)
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
@@ -2073,6 +2093,16 @@ async def cb_handler(client: Client, query: CallbackQuery):
             InlineKeyboardButton('Gᴏ Bᴀᴄᴋ', callback_data='start'),
             InlineKeyboardButton('Cʟᴏsᴇ', callback_data='close_data')
         ]]
+        reply_markup = InlineKeyboardMarkup(buttons)
+        await query.message.edit_text(
+            text="● ◌ ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ◌"
+        )
+        await query.message.edit_text(
+            text="● ● ●"
+        )
         await client.edit_message_media(
             query.message.chat.id, 
             query.message.id, 
