@@ -5,10 +5,12 @@
 
 class script(object):
     START_TXT = """
-I Lᴏᴏᴋ🌟 Sɪᴍᴘʟᴇ, Bᴜᴛ Mʏ Wᴏʀᴋs Nᴏᴛ Sɪᴍᴘʟᴇ 💀...
+I Mᴀʏ Lᴏᴏᴋ Cʜɪʟʟ 😎, Bᴜᴛ Dᴏɴ'ᴛ Gᴇᴛ Iᴛ Tᴡɪsᴛᴇᴅ 💣...
+Mʏ Wᴏʀᴋ Is Nᴏᴛ Fᴏʀ Eᴠᴇʀʏᴏɴᴇ. ⚡
 
-I Wᴏʀᴋ Oɴʟʏ Fᴏʀ Mʏ Oᴡɴᴇʀ....👿
-ɪғ Yᴏᴜ Wᴀɴᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘs Cᴏɴᴛᴀᴄᴛ ᴍʏ Cʀᴇᴀᴛᴏʀ...
+I Oɴʟʏ Sᴇʀᴠᴇ Mʏ Bᴏss 🔥.
+Wᴀɴɴᴀ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Sᴘᴀᴄᴇ?
+Tᴀʟᴋ Tᴏ Mʏ Cʀᴇᴀᴛᴏʀ 🦾👿.
 
 <b>Cʀᴇᴀᴛᴏʀ </b>⚡️ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ 🜲</a>"""
 
