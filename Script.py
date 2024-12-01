@@ -4,12 +4,13 @@
 
 
 class script(object):
-    START_TXT = """<b>
+    START_TXT = """
 I Lᴏᴏᴋ🌟 Sɪᴍᴘʟᴇ, Bᴜᴛ Mʏ Wᴏʀᴋs Nᴏᴛ Sɪᴍᴘʟᴇ 💀...
 
 I Wᴏʀᴋ Oɴʟʏ Fᴏʀ Mʏ Oᴡɴᴇʀ....👿
 ɪғ Yᴏᴜ Wᴀɴᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘs Cᴏɴᴛᴀᴄᴛ ᴍʏ Cʀᴇᴀᴛᴏʀ...
-Cʀᴇᴀᴛᴏʀ ⚡️ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ♚</a></b>"""
+
+<b>Cʀᴇᴀᴛᴏʀ </b>⚡️ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ♚</a>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -18,14 +19,14 @@ Cʀᴇᴀᴛᴏʀ ⚡️ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ♚
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
-    ABOUT_TXT = """╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ]────⍟
-|
-├⍟ ᴍʏ ɴᴀᴍᴇ 💫: <a href=https://t.me/{}>{}</a>
-├⍟ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🧱: <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
-├⍟ sᴇʀᴠᴇʀ ☁️: 🆅🅿🆂
-├⍟ ʙᴜɪʟᴅ sᴛᴀᴛᴜs 🛠: v.0.7[Osᴇ Exᴘʀᴇss]> 
-|
-╰───────────────⍟"""
+    ABOUT_TXT = """╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ]────᯽
+├
+├✧ Mʏ Nᴀᴍᴇ 💫   ⇿ <a href=https://t.me/{}>{}</a>
+├✧ Dᴇᴠᴇʟᴏᴘᴇʀ 🧱 ⇿ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
+├✧ Sᴇʀᴠᴇʀ ☁️    ⇿ VPS
+├✧ Sᴛᴀᴛᴜs 🛠     ⇿ v.0.7[Osᴇ Exᴘʀᴇss]> 
+├
+╰───────────────᯽"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
     
@@ -487,18 +488,11 @@ Aᴠᴀɪʟᴀʙʟᴇ ᴄᴏᴍᴍᴀɴᴅs:
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
     LOGO = """
-  ______  __       __ 
- /      \|  \     /  \
-|  ▓▓▓▓▓▓\ ▓▓\   /  ▓▓
-| ▓▓   \▓▓ ▓▓▓\ /  ▓▓▓
-| ▓▓     | ▓▓▓▓\  ▓▓▓▓
-| ▓▓   __| ▓▓\▓▓ ▓▓ ▓▓
-| ▓▓__/  \ ▓▓ \▓▓▓| ▓▓
- \▓▓    ▓▓ ▓▓  \▓ | ▓▓
-  \▓▓▓▓▓▓ \▓▓      \▓▓
-                      
-                      
-                      
+  ██████ ███    ███ 
+██      ████  ████ 
+██      ██ ████ ██ 
+██      ██  ██  ██ 
+ ██████ ██      ██                        
 """
  
     TAMIL_INFO = """
