@@ -2121,13 +2121,19 @@ async def cb_handler(client: Client, query: CallbackQuery):
         ]]
         reply_markup = InlineKeyboardMarkup(buttons)
         await query.message.edit_text(
-            text="● ◌ ◌"
+            text="█▒▒▒▒▒▒▒▒▒20%"
         )
         await query.message.edit_text(
-            text="● ● ◌"
+            text="███▒▒▒▒▒▒▒40%"
         )
         await query.message.edit_text(
-            text="● ● ●"
+            text="█████▒▒▒▒▒60%"
+        )
+        await query.message.edit_text(
+            text="███████▒▒▒80%"
+        )
+        await query.message.edit_text(
+            text="██████████100%"
         )
         await client.edit_message_media(
             query.message.chat.id, 
