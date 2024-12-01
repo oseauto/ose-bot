@@ -21,10 +21,10 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ]────᯽
 ├
-├✧ Mʏ Nᴀᴍᴇ 💫   ⇿ <a href=https://t.me/{}>{}</a>
-├✧ Dᴇᴠᴇʟᴏᴘᴇʀ 🧱 ⇿ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
-├✧ Sᴇʀᴠᴇʀ ☁️    ⇿ VPS
-├✧ Sᴛᴀᴛᴜs 🛠     ⇿ v.0.7[Osᴇ Exᴘʀᴇss]> 
+├✧ 💫Mʏ Nᴀᴍᴇ ⇌ <a href=https://t.me/{}>{}</a>
+├✧ 🧱Dᴇᴠᴇʟᴏᴘᴇʀ ⇌ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
+├✧ ☁️Sᴇʀᴠᴇʀ ⇌ VPS
+├✧ 🛠Sᴛᴀᴛᴜs ⇌ v.0.7[Osᴇ Exᴘʀᴇss]> 
 ├
 ╰───────────────᯽"""
 
