@@ -10,7 +10,7 @@ I Lᴏᴏᴋ🌟 Sɪᴍᴘʟᴇ, Bᴜᴛ Mʏ Wᴏʀᴋs Nᴏᴛ Sɪᴍᴘʟᴇ �
 I Wᴏʀᴋ Oɴʟʏ Fᴏʀ Mʏ Oᴡɴᴇʀ....👿
 ɪғ Yᴏᴜ Wᴀɴᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘs Cᴏɴᴛᴀᴄᴛ ᴍʏ Cʀᴇᴀᴛᴏʀ...
 
-<b>Cʀᴇᴀᴛᴏʀ </b>⚡️ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ♚</a>"""
+<b>Cʀᴇᴀᴛᴏʀ </b>⚡️ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ 🜲</a>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -20,12 +20,10 @@ I Wᴏʀᴋ Oɴʟʏ Fᴏʀ Mʏ Oᴡɴᴇʀ....👿
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ]────᯽
-├
-├✧ 💫Mʏ Nᴀᴍᴇ ⇌ <a href=https://t.me/{}>{}</a>
-├✧ 🧱Dᴇᴠᴇʟᴏᴘᴇʀ ⇌ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
-├✧ ☁️Sᴇʀᴠᴇʀ ⇌ VPS
-├✧ 🛠Sᴛᴀᴛᴜs ⇌ v.0.7[Osᴇ Exᴘʀᴇss]> 
-├
+├✧ 💫 Mʏ Nᴀᴍᴇ ⇌ <a href=https://t.me/{}>{}</a>
+├✧ 🧱 Dᴇᴠᴇʟᴏᴘᴇʀ ⇌ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
+├✧ ☁️ Sᴇʀᴠᴇʀ ⇌ VPS
+├✧ 🛠 Bᴜɪʟᴅ ⇌ v.0.7[Osᴇ Exᴘʀᴇss]> 
 ╰───────────────᯽"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
@@ -38,7 +36,7 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 ‣ ᴅᴀᴛᴀ ʙᴀsᴇ : <a href='https://www.mongodb.com/'>ᴍᴏɴɢᴏ ᴅʙ</a> 
 ‣ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : ᴠ2.7.1 [sᴛᴀʙʟᴇ]></b>"""
 
-    CLONE_TXT = """<b>🌟 <u>CLONE MODE</u>
+    CLONE_TXT = """<b> <u>CLONE MODE</u>
 
 - Yᴏᴜ Cʀᴇᴀᴛᴇ Yᴏᴜʀ Oᴡɴ Cʟᴏɴᴇ Bᴏᴛ Bʏ /clone Cᴏᴍᴍᴀɴᴅ 
 - Yᴏᴜ Cᴀɴ Bʀᴏᴀᴅᴄᴀsᴛ Iɴ Yᴏᴜʀ Cʟᴏɴᴇ Bᴏᴛs
