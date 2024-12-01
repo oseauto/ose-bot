@@ -8,7 +8,9 @@ class script(object):
     
 Mʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>
     
-I Cᴀɴ Bʀɪɴɢ Tʜᴇ Bᴇsᴛ Mᴏᴠɪᴇs Fᴏʀ Yᴏᴜ, Jᴜsᴛ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ Oʀ Jᴏɪɴ Oᴜʀ Cʀᴇᴇᴘ Gʀᴏᴜᴘ Aɴᴅ Eɴᴊᴏʏ Sᴏᴍᴇ Sᴄᴇɴᴇs Yᴏᴜ Nᴇvᴇʀ Fᴏʀɢᴏᴛ! 😎🍿</b>"""
+I Lᴏᴏᴋ Sɪᴍᴘʟᴇ, Bᴜᴛ Mʏ Wᴏʀᴋs Nᴏᴛ Sɪᴍᴘʟᴇ 💀.../n I Wᴏʀᴋ Oɴʟʏ Fᴏʀ Mʏ Oᴡɴᴇʀ..../n ɪғ Yᴏᴜ Wᴀɴᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘs Cᴏɴᴛᴀᴄᴛ ᴍʏ Oᴡɴᴇʀ 
+
+Oᴡɴᴇʀ :<a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ♚</a></b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
