@@ -8,8 +8,8 @@ class script(object):
 I Lᴏᴏᴋ🌟 Sɪᴍᴘʟᴇ, Bᴜᴛ Mʏ Wᴏʀᴋs Nᴏᴛ Sɪᴍᴘʟᴇ 💀...
 
 I Wᴏʀᴋ Oɴʟʏ Fᴏʀ Mʏ Oᴡɴᴇʀ....👿
-ɪғ Yᴏᴜ Wᴀɴᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘs Cᴏɴᴛᴀᴄᴛ ᴍʏ Oᴡɴᴇʀ...
-Oᴡɴᴇʀ ⚡️ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ♚</a></b>"""
+ɪғ Yᴏᴜ Wᴀɴᴛ Aᴅᴅ Mᴇ ɪɴ Yᴏᴜʀ Gʀᴏᴜᴘs Cᴏɴᴛᴀᴄᴛ ᴍʏ Cʀᴇᴀᴛᴏʀ...
+Cʀᴇᴀᴛᴏʀ ⚡️ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ♚</a></b>"""
 
     CLONE_START_TXT = """<b><blockquote>ʜᴇʟʟᴏ {}, ᴍʏ ɴᴀᴍᴇ <a href=https://t.me/{}>{}</a></blockquote>
     
@@ -20,10 +20,10 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ]────⍟
 |
-├⍟ ᴍʏ ɴᴀᴍᴇ : <a href=https://t.me/{}>{}</a>
-├⍟ ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
+├⍟ ᴍʏ ɴᴀᴍᴇ 💫: <a href=https://t.me/{}>{}</a>
+├⍟ ᴅᴇᴠᴇʟᴏᴘᴇʀ 🧱: <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
 ├⍟ sᴇʀᴠᴇʀ ☁️: 🆅🅿🆂
-├⍟ ʙᴜɪʟᴅ sᴛᴀᴛᴜs : v.0.7[Osᴇ Exᴘʀᴇss]> 
+├⍟ ʙᴜɪʟᴅ sᴛᴀᴛᴜs 🛠: v.0.7[Osᴇ Exᴘʀᴇss]> 
 |
 ╰───────────────⍟"""
 
