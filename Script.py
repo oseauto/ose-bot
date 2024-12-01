@@ -22,10 +22,15 @@ Tᴀʟᴋ Tᴏ Mʏ Cʀᴇᴀᴛᴏʀ 🦾👿.
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """╭────[ ᴀɪᴏ ᴀᴜᴛᴏ ғɪʟᴛᴇʀ ʙᴏᴛ ]────᯽
+├
 ├✧ 💫 Mʏ Nᴀᴍᴇ ⇌ <a href=https://t.me/{}>{}</a>
+├
 ├✧ 🧱 Dᴇᴠᴇʟᴏᴘᴇʀ ⇌ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ</a>
+├
 ├✧ ☁️ Sᴇʀᴠᴇʀ ⇌ VPS
+├
 ├✧ 🛠 Bᴜɪʟᴅ ⇌ v.0.7[Osᴇ Exᴘʀᴇss]> 
+├
 ╰───────────────᯽"""
 
     CLONE_ABOUT_TXT = """<b><blockquote>⍟───[ ᴍʏ ᴀʙᴏᴜᴛ ]───⍟</blockquote>
