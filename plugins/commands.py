@@ -28,9 +28,7 @@ async def start(client, message):
         pass
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [[
-            InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-        ],[
-                        InlineKeyboardButton(' Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/chat_sup_6"),
+            InlineKeyboardButton(' Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url="https://t.me/chat_sup_6"),
             InlineKeyboardButton(' Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url='https://t.me/+to0CS22_eqQ3YWM9')
         ],[
             InlineKeyboardButton(' Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ', url=CHNL_LNK)
@@ -49,9 +47,7 @@ async def start(client, message):
     if len(message.command) != 2:
         if PREMIUM_AND_REFERAL_MODE == True:
             buttons = [[
-                InlineKeyboardButton('⤬ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ ⤬', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
-            ],[
-                                InlineKeyboardButton(' Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
+                InlineKeyboardButton(' Mᴏᴠɪᴇ Gʀᴏᴜᴘ', url=GRP_LNK)
             ],[
                 InlineKeyboardButton(' Hᴇʟᴘ', callback_data='help'),
                 InlineKeyboardButton(' Aʙᴏᴜᴛ', callback_data='about')
