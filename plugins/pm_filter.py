@@ -55,7 +55,7 @@ async def give_filter(client, message):
                 if settings['auto_ffilter']:
                     ai_search = True
                     # Removed reply_msg line, directly handle the results
-                    await auto_filter(client, message.text, message, None, ai_search)
+                    await auto_filter(client, message.text, message, ai_search)
             except KeyError:
                 grpid = await active_connection(str(message.from_user.id))
                 await save_group_settings(grpid, 'auto_ffilter', True)
@@ -63,7 +63,7 @@ async def give_filter(client, message):
                 if settings['auto_ffilter']:
                     ai_search = True
                      #Removed reply_msg line here as well
-                    await auto_filter(client, message.text, message, None, ai_search)
+                    await auto_filter(client, message.text, message, ai_search)
     else: #a better logic to avoid repeated lines of code in auto_filter function
         search = message.text
         temp_files, temp_offset, total_results = await get_search_results(chat_id=message.chat.id, query=search.lower(), offset=0, filter=True)
@@ -2996,7 +2996,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
                 await fek.delete()
                 await message.delete()
     else:
-        fuk = await None.edit_text(text=cap, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
+        fuk = await .edit_text(text=cap, reply_markup=InlineKeyboardMarkup(btn), disable_web_page_preview=True)
         
         try:
             if settings['auto_delete']:
