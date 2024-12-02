@@ -80,8 +80,8 @@ async def pm_text(bot, message):
     if content.startswith("/") or content.startswith("#"): return  # ignore commands and hashtags
     if PM_SEARCH == True:
         ai_search = True
-        reply_msg = await bot.send_message(message.from_user.id, f"<b><i>Searching For {content} 🔍</i></b>", reply_to_message_id=message.id)
-        await auto_filter(bot, content, message, reply_msg, ai_search)
+        # Removed reply_msg line, directly handle the results
+        await auto_filter(bot, content, message, None, ai_search)
     else:
         await message.reply_text(text=f"<b>ʜᴇʏ {user} 🫶🏻 ,\n<blockquote>ʏᴏᴜ ᴄᴀɴ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ🚫\nʙᴏᴛ ᴡᴏʀᴋ's ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ✅\nᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</blockquote></b>", reply_markup=InlineKeyboardMarkup([[InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 𝟷 🔎", url=f"https://t.me/+jH3NZ3VTs5JhN2I1")],[InlineKeyboardButton("(Oɴʟʏ Tᴀᴍɪʟ Mᴏᴠɪᴇ) Gʀᴏᴜᴘ 2 🔎", url=f"https://t.me/+sVDLf3pVUi8yNGI1")]]))
         await bot.send_message(chat_id=LOG_CHANNEL, text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>")
