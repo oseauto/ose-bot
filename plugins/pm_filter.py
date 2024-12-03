@@ -2968,7 +2968,7 @@ async def auto_filter(client, name, msg, reply_msg, ai_search, spoll=False):
                 cap += f"<b>🗂️ <a href='https://telegram.me/{temp.U_NAME}?start=files_{file['file_id']}'>[{get_size(file['file_size'])}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file['file_name'].split()))}\n\n</a></b>"
 
     if imdb and imdb.get('poster'):
-    try:
+         try:
         hehe = await message.reply_photo(photo=imdb.get('poster'), caption=cap, reply_markup=InlineKeyboardMarkup(btn))
         try:
             if settings.get('auto_delete', False):
@@ -3019,7 +3019,7 @@ else:
         await asyncio.sleep(300)
         await fuk.delete()
         await message.delete()
-
+   
 async def advantage_spell_chok(client, name, msg, vj_search):
     mv_id = msg.id
     mv_rqst = name
