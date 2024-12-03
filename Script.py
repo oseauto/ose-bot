@@ -279,10 +279,14 @@ Cʜᴇᴄᴋ Yᴏᴜʀ Sᴘᴇʟʟɪɴɢ ɪɴ Gᴏᴏɢʟᴇ Aɴᴅ Tʀʏ Aɢᴀ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """<b><blockquote>🗂️Fɪʟᴇ Nᴀᴍᴇ ➢ {file_name}</blockquote>
-<blockquote>🗳️Fɪʟᴇ Sɪᴢᴇ ➢ {file_size}</blockquote>
-<blockquote>Mᴏᴠɪᴇ Rᴇǫᴜᴇsᴛ Gʀᴏᴜᴘ ➢ <a href='https://t.me/+to0CS22_eqQ3YWM9'>Nᴇᴛғʟɪx Mᴏᴠɪᴇ Gʀᴏᴜᴘ</a></blockquote>
-<blockquote>Mᴀɪɴ Cʜᴀɴɴᴇʟ ➢ @All_In_One_Linkz </blockquote></b>""" 
+    CAPTION = """📂Fɪʟᴇ Nᴀᴍᴇ ➢ {file_name}
+    
+🗳️Fɪʟᴇ Sɪᴢᴇ ➢ {file_size}
+
+
+╔═*.·:·.✧ ✦ ✧.·:·.*═╗
+<a href='https://t.me/All_In_One_Linkz'>Jᴏɪɴ Fᴏʀ Mᴏᴠɪᴇs</a>
+╚═*.·:·.✧ ✦ ✧.·:·.*═╝""" 
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {qurey}
