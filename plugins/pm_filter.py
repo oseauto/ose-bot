@@ -77,21 +77,36 @@ async def pm_text(bot, message):
     user_id = message.from_user.id
     
     if content.startswith("/") or content.startswith("#"):
-        return  # ignore commands and hashtags
+        return  # Ignore commands and hashtags
     
     if PM_SEARCH:
         ai_search = True
-        await bot.send_message(message.from_user.id, f"<b><i>Searching For {content} 🔍</i></b>")
-        await auto_filter(bot, content, message, None, ai_search)  # Remove reply_msg here
+        # Directly call the auto_filter function to process and send the list
+        await auto_filter(bot, content, message, None, ai_search)
     else:
-        await message.reply_text(text=f"<b>ʜᴇʏ {user} 🫶🏻 ,\n<blockquote>ʏᴏᴜ ᴄᴀɪ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ🚫\nʙᴏᴛ ᴡᴏʀᴋ's ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ✅\nᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</blockquote></b>",
+        await message.reply_text(
+            text=(
+                f"<b>ʜᴇʏ {user} 🫶🏻 ,\n"
+                "<blockquote>ʏᴏᴜ ᴄᴀɪ'ᴛ ɢᴇᴛ ᴍᴏᴠɪᴇs ꜰʀᴏᴍ ʜᴇʀᴇ🚫\n"
+                "ʙᴏᴛ ᴡᴏʀᴋ's ᴏɴʟʏ ɪɴ ɢʀᴏᴜᴘ✅\n"
+                "ᴄʟɪᴄᴋ ʀᴇǫᴜᴇsᴛ ʜᴇʀᴇ ʙᴜᴛᴛᴏɴ ʙᴇʟᴏᴡ 👇</blockquote></b>"
+            ),
             reply_markup=InlineKeyboardMarkup([
                 [InlineKeyboardButton("Mᴏᴠɪᴇ Gʀᴏᴜᴘ 𝟷 🔎", url="https://t.me/+jH3NZ3VTs5JhN2I1")],
                 [InlineKeyboardButton("(Oɴʟʏ Tᴀᴍɪʟ Mᴏᴠɪᴇ) Gʀᴏᴜᴘ 2 🔎", url="https://t.me/+sVDLf3pVUi8yNGI1")]
             ])
         )
         
-        await bot.send_message(chat_id=LOG_CHANNEL, text=f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\nNᴀᴍᴇ : {user}\n\nID : {user_id}\n\nMᴇssᴀɢᴇ : {content}</b>")
+        await bot.send_message(
+            chat_id=LOG_CHANNEL,
+            text=(
+                f"<b>#𝐏𝐌_𝐌𝐒𝐆\n\n"
+                f"Nᴀᴍᴇ : {user}\n\n"
+                f"ID : {user_id}\n\n"
+                f"Mᴇssᴀɢᴇ : {content}</b>"
+            )
+        )
+
 
 @Client.on_callback_query(filters.regex(r"^next"))
 async def next_page(bot, query):
