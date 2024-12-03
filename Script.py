@@ -6,11 +6,11 @@
 class script(object):
     START_TXT = """
 I Mᴀʏ Lᴏᴏᴋ Cʜɪʟʟ 😎, Bᴜᴛ Dᴏɴ'ᴛ Gᴇᴛ Iᴛ Tᴡɪsᴛᴇᴅ 💣...
-Mʏ Wᴏʀᴋ Is Nᴏᴛ Fᴏʀ Eᴠᴇʀʏᴏɴᴇ. ⚡
+Mʏ Wᴏʀᴋ Is Nᴏᴛ Fᴏʀ Eᴠᴇʀʏᴏɴᴇ⚡
 
-I Oɴʟʏ Sᴇʀᴠᴇ Mʏ Bᴏss 🔥.
+I Oɴʟʏ Sᴇʀᴠᴇ Mʏ Bᴏss 🔥
 Wᴀɴɴᴀ Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Sᴘᴀᴄᴇ?
-Tᴀʟᴋ Tᴏ Mʏ Cʀᴇᴀᴛᴏʀ 🦾👿.
+Tᴀʟᴋ Tᴏ Mʏ Cʀᴇᴀᴛᴏʀ 🦾👿
 
 <b>Cʀᴇᴀᴛᴏʀ </b>⚡️ <a href='https://t.me/GODLike_razith'>Rᴀᴢɪᴛʜ 🜲</a>"""
 
@@ -279,13 +279,13 @@ Cʜᴇᴄᴋ Yᴏᴜʀ Sᴘᴇʟʟɪɴɢ ɪɴ Gᴏᴏɢʟᴇ Aɴᴅ Tʀʏ Aɢᴀ
 
 𝗠𝗲𝘀𝘀𝗮𝗴𝗲 <b>: {}</b>"""
 
-    CAPTION = """📂Fɪʟᴇ Nᴀᴍᴇ ➢ {file_name}
+    CAPTION = """<code>📂Fɪʟᴇ Nᴀᴍᴇ : {file_name}</code>
     
-🗳️Fɪʟᴇ Sɪᴢᴇ ➢ {file_size}
+<code>🗳️Fɪʟᴇ Sɪᴢᴇ : {file_size}</code>
 
 
 ╔═*.·:·.✧ ✦ ✧.·:·.*═╗
-<a href='https://t.me/All_In_One_Linkz'>Jᴏɪɴ Fᴏʀ Mᴏᴠɪᴇs</a>
+    <a href='https://t.me/All_In_One_Linkz'>Jᴏɪɴ Fᴏʀ Mᴏᴠɪᴇs</a>
 ╚═*.·:·.✧ ✦ ✧.·:·.*═╝""" 
 
     IMDB_TEMPLATE_TXT = """
