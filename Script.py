@@ -173,7 +173,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 
     STATUS_TXT = """<b>Sᴏʀʀʏ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ ᴏɴʟʏ ᴀᴅᴍɪɴꜱ 👀</b>"""
     
-    SSS_TXT = """<b><code>Total Files From All DBs: <code>{}</code>
+    SSS_TXT = """<blockquote><code>Total Files From All DBs: <code>{}</code>
 
 USERS DB :-
 ╰┈➤ Tᴏᴛᴀʟ Usᴇʀs: <code>{}</code>
@@ -191,7 +191,7 @@ FILE SECOND DB :-
 
 OTHER DB :-
 ╰┈➤ Usᴇᴅ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code>
-╰┈➤ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></code></b>"""
+╰┈➤ Fʀᴇᴇ Sᴛᴏʀᴀɢᴇ: <code>{} MB</code></code></blockquote>"""
     
     SOURCE_CODE_TXT = """
 <b><blockquote>    
