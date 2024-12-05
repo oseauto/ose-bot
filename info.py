@@ -53,7 +53,7 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 # MongoDB information
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', True)) # Set True or False
 
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://rrazith66:razith786@cluster0.blltj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://ose2:ose786@cluster0.ev2i9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # IF Multiple Database Is False Then Fill Only This Database Url.
 if MULTIPLE_DATABASE == False:
     USER_DB_URI = DATABASE_URI
     OTHER_DB_URI = DATABASE_URI
@@ -62,8 +62,8 @@ if MULTIPLE_DATABASE == False:
 else:
     USER_DB_URI = DATABASE_URI # This Db is for User Data Store
     OTHER_DB_URI = environ.get('OTHER_DB_URI', "mongodb+srv://ose:ose786@cluster0.s7jrb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db Is For Other Data Store
-    FILE_DB_URI = environ.get('FILE_DB_URI', "mongodb+srv://rrazith66:razith786@cluster0.blltj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db Is For File Data Store
-    SEC_FILE_DB_URI = environ.get('SEC_FILE_DB_URI', "mongodb+srv://ose2:ose786@cluster0.ev2i9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db is for File Data Store When First Db Is Going To Be Full.
+    FILE_DB_URI = environ.get('FILE_DB_URI', "mongodb+srv://ose2:ose786@cluster0.ev2i9.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db Is For File Data Store
+    SEC_FILE_DB_URI = environ.get('SEC_FILE_DB_URI', "mongodb+srv://rrazith66:razith786@cluster0.blltj.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db is for File Data Store When First Db Is Going To Be Full.
     
 DATABASE_NAME = environ.get('DATABASE_NAME', "Cluster0")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'AIO')
