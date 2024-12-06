@@ -65,8 +65,8 @@ else:
     FILE_DB_URI = environ.get('FILE_DB_URI', "mongodb+srv://m07490261:razith786@cluster0.lifff.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db Is For File Data Store
     SEC_FILE_DB_URI = environ.get('SEC_FILE_DB_URI', "mongodb+srv://m64158059:razith786@cluster0.zzhks.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0") # This Db is for File Data Store When First Db Is Going To Be Full.
     
-DATABASE_NAME = environ.get('DATABASE_NAME', "marionew")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_Videos')
+DATABASE_NAME = environ.get('DATABASE_NAME', "All")
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_Filse')
 
 # Premium And Referal Settings
 PREMIUM_AND_REFERAL_MODE = bool(environ.get('PREMIUM_AND_REFERAL_MODE', False)) # Set Ture Or False
